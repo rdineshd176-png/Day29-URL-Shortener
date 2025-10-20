@@ -1,46 +1,54 @@
-Day 29 – URL Shortener 🔗
-📜 Project Description:
+This project is part of my 100 Days, 100 Python Projects challenge.
 
-A simple URL Shortener built using Python that converts long URLs into short, easy-to-share links. Perfect for simplifying lengthy URLs and managing them efficiently.
+🎯 Goal
 
-💻 Features:
+Create a simple URL Shortener App that converts long URLs into short, easy-to-share links instantly using the pyshorteners library.
 
-✂️ Shortens any long URL into a clean, compact version.
+🧠 How It Works
 
-📋 Copies shortened link directly to clipboard.
+The user enters a long URL.
 
-🧠 Uses pyshorteners library for simple, reliable shortening.
+The app validates the URL (adds https:// if missing).
 
-⚡ Quick and easy to use via terminal.
+It uses the pyshorteners library to generate a TinyURL-based short link.
 
-🧠 Key Learnings:
+The shortened link is displayed and automatically copied to the clipboard.
 
-Learned how to use the pyshorteners library in Python.
+🧩 Features
 
-Practiced handling user input and validation.
+✂️ Converts long URLs into compact short links.
 
-Understood URL shortening concepts and API integrations.
+📋 Automatically copies the shortened URL to clipboard.
 
-⚙️ Tech Stack:
+🚫 Handles missing protocols or invalid links gracefully.
 
-Language: Python
+⚡ Super quick and simple to use in the terminal.
 
-Library: pyshorteners
+🛠️ Tech Used
 
-▶️ How to Run:
+Python 3
 
-Install the required library:
+pyshorteners library
 
-pip install pyshorteners
+pyperclip library
+
+🚀 How to Run
+
+Install the required libraries:
+
+pip install pyshorteners pyperclip
 
 
-Run the script:
+Run the Python file:
 
 python url_shortener.py
 
 
-Enter your long URL — get a short one instantly!
+Enter a long URL and get a shortened one instantly!
 
-🖼️ Example Output:
+🧾 Example Output
+🔗 Welcome to the URL Shortener!
 Enter the URL to shorten: https://www.example.com/this-is-a-very-long-url
-Shortened URL: https://tinyurl.com/y5example
+
+✅ Shortened URL: https://tinyurl.com/y5example
+📋 The shortened link has been copied to your clipboard!
